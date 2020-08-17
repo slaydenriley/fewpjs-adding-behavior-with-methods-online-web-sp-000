@@ -14,10 +14,13 @@ class Dog {
     this.name = name;
     this.sex = sex;
   };
+<<<<<<< HEAD
 
   speak() {
     return `${this.name} says woof!`;
   };
+=======
+>>>>>>> ea5db39c1e9573a943702edef6d40908634d7a91
 };
 
 class Bird {
@@ -25,6 +28,7 @@ class Bird {
     this.name = name;
     this.sex = sex;
   };
+<<<<<<< HEAD
 
   speak() {
     if (this.sex == "male") {
@@ -33,4 +37,6 @@ class Bird {
       return `${this.name} says squawk!`
     };
   };
+=======
+>>>>>>> ea5db39c1e9573a943702edef6d40908634d7a91
 };
